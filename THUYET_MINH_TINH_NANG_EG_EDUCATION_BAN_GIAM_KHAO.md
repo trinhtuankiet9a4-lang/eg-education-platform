@@ -2,7 +2,7 @@
 ## Dự án: EDUCATIONAL GADGET (EG EDUCATION) • Cuộc thi Ý tưởng Khởi nghiệp năm 2026
 
 - **Đơn vị**: Trường Đại học Tây Nguyên • Khoa Khoa học Tự nhiên và Công nghệ (Lớp CNTT K26)
-- **Nhóm tác giả**: **Trịnh Tuấn Kiệt** (`26103043` - Trưởng nhóm), **Võ Phương Vi** (`26103095`), **Nguyễn Phú Đức** (`26103019`)
+- **Nhóm tác giả**: **Trịnh Tuấn Kiệt** (`26103043` - Lập trình & triển khai toàn bộ hệ thống), **Nguyễn Quốc Phát** (Bổ sung tính năng, làm video báo cáo & kiểm thử sản phẩm), **Nguyễn Thị Hương Huệ** (Tìm hiểu tài chính & viết báo cáo)
 - **Giảng viên hướng dẫn**: **ThS. Phạm Văn Thuận**
 - **Link triển khai thực tế (Live HTTPS)**: https://eg-education-web-production.up.railway.app
 - **Tài khoản Demo BGK**: Giảng viên `pvthuan@eg.edu.vn` (`123456`) | Sinh viên `26103043@sv.ttn.edu.vn` (`26103043`)

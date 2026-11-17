@@ -19,13 +19,13 @@ Tại các giảng đường đông từ 80–100 sinh viên, Thầy Cô phải 
 
 ---
 
-## 👥 Nhóm Thực hiện (Lớp CNTT K26 – ĐH Tây Nguyên)
+## 👥 Nhóm Thực hiện (Trường Đại học Tây Nguyên)
 
-| Thành viên | MSSV | Vai trò & Đóng góp chính |
+| Thành viên | Lớp / Mã SV | Vai trò & Đóng góp thực chất |
 |---|---|---|
-| **Trịnh Tuấn Kiệt** *(Đội trưởng)* | `26103043` | Kiến trúc tổng thể Full-stack, Backend Express 5 + SQLite, AI Hybrid RAG (`Groq Cloud`), Điểm danh Dynamic QR + GPS Geofencing, Game 2D Ném phấn, Triển khai Cloud Railway |
-| **Võ Phương Vi** | `26103095` | Thiết kế UI/UX Dark/Light & Mobile-First (`390×844`), chuẩn hóa dữ liệu lớp `88` SV CNTT K26, Sổ điểm điện tử, Đơn nghỉ phép & Học bù AI, Kho ôn tập bài cũ |
-| **Nguyễn Phú Đức** | `26103019` | Phân hệ Quản lý Lab, Đồ án nhóm CDIO (`Hệ số C_i`), Quét trùng code MOSS, Hàng đợi Phòng Lab FIFO, Công văn AI & Biểu quyết lớp học, Dựng video demo |
+| **Trịnh Tuấn Kiệt** *(Đội trưởng)* | `CNTT K26` • `26103043` | Trực tiếp thiết kế kiến trúc tổng thể Full-stack, lập trình toàn bộ hệ thống `EG Education` (Frontend React 19, Backend Express 5 + SQLite 16 tính năng trên 2 phân hệ, AI Hybrid RAG, Điểm danh Dynamic QR + GPS, Game 2D Ném phấn 100 chỗ ngồi), tối ưu Mobile và triển khai Cloud Railway + GitHub |
+| **Nguyễn Quốc Phát** | Thành viên | Đề xuất bổ sung các tính năng trải nghiệm thực tiễn, xây dựng kịch bản & sản xuất video báo cáo/demo và trực tiếp kiểm thử (test) vận hành sản phẩm trên đa thiết bị |
+| **Nguyễn Thị Hương Huệ** | Thành viên | Nghiên cứu, phân tích mô hình tài chính – tính khả thi triển khai thực tế và tham gia viết báo cáo thuyết minh dự án |
 
 - **Giảng viên hướng dẫn & truyền cảm hứng**: **ThS. Phạm Văn Thuận** *(Giảng viên Khoa KHTN&CN, Trường Đại học Tây Nguyên)*
 
@@ -77,7 +77,7 @@ Truy cập **https://eg-education-web-production.up.railway.app**, chọn phân 
 - **Backend**: Node.js, Express 5 (`server/index.js` v2.4.0) phục vụ hợp nhất REST API (`/api/*`) và Static SPA (`dist/`).
 - **Database**: SQLite (`better-sqlite3`) cấu hình `DB_PATH` lưu bền vững trên Volume Cloud (`/data/eg_education.db`).
 - **AI Engine trong ứng dụng**: Groq Cloud API (`openai/gpt-oss-120b`) kết hợp SQLite Hybrid RAG & Tri thức Mở CNTT cho 4 chức năng (*Gia sư AI 24/7, AI Soạn bài Thang Bloom, AI Tạo Sơ đồ Tư duy, AI Tóm tắt Công văn*).
-- **Công cụ hỗ trợ phát triển**: Trợ lý lập trình AI dùng để tối ưu responsive mobile và rà soát lỗi cú pháp; giọng đọc video demo dùng `Google TTS (vi)`; toàn bộ kiến trúc hệ thống, mã nguồn, nghiệp vụ sư phạm và kiểm thử do nhóm **EG Tech – CNTT K26** trực tiếp xây dựng và xác thực.
+- **Công cụ hỗ trợ phát triển & truyền thông**: Trợ lý lập trình AI hỗ trợ rà soát lỗi cú pháp, tối ưu hiển thị Mobile; giọng đọc thuyết minh video demo dùng `Google TTS (vi)` + `FFmpeg`; toàn bộ mã nguồn, nghiệp vụ 16 tính năng, đóng góp bổ sung tính năng, kiểm thử sản phẩm, phân tích tài chính và viết báo cáo đều do **Trịnh Tuấn Kiệt**, **Nguyễn Quốc Phát** và **Nguyễn Thị Hương Huệ** trực tiếp thực hiện và kiểm chứng.
 
 ---
 
