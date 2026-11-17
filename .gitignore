@@ -1,0 +1,41 @@
+# Dependencies & Build Output
+node_modules/
+dist/
+
+# Local Environment & Secrets (keep .env.example tracked)
+.env
+.env.*
+!.env.example
+
+# SQLite Databases, Journals & Backups
+server/*.db*
+server/*.db-wal
+server/*.db-shm
+server/*.db-journal
+backups/
+
+# Large Media & Video Build Artifacts
+*.mp4
+judge_assets/video_build/
+judge_assets/video_preview/
+
+# Test, Audit & Temporary Artifacts
+scratch/
+test_screenshots/
+test_downloads/
+comprehensive_test_screenshots/
+login_frames/
+video_frames/
+audio.wav
+test_*.cjs
+verify_*.cjs
+check_*.cjs
+check_*.mjs
+clean_db.cjs
+run_comprehensive_audit.cjs
+scratch_edit.cjs
+audit_report.json
+test_browser_screenshot.png
+Tieu_luan_*.docx
+phu_luc_1_text.txt
+~$*
